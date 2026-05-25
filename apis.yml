@@ -1,0 +1,379 @@
+aid: siteminder
+name: SiteMinder
+url: https://raw.githubusercontent.com/api-evangelist/siteminder/refs/heads/main/apis.yml
+humanURL: https://www.siteminder.com/
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Hospitality
+  - Hotel Distribution
+  - Channel Manager
+  - Booking Engine
+  - Travel
+  - Property Management
+  - Reservations
+description: SiteMinder is an Australian hotel commerce platform (ASX SDR) that connects hotels with
+  more than 450 online distribution channels, including OTAs (Booking.com, Expedia, Airbnb, Agoda),
+  metasearch sites (Google, Trivago, TripAdvisor), and global distribution systems. Through its developer
+  portal at developer.siteminder.com, SiteMinder publishes five integration APIs spanning property
+  management system connectivity (pmsXchange), booking channel distribution (SiteConnect, Channels Plus),
+  metasearch publication (SMX), and direct booking flows (Direct Booking API). The platform serves more
+  than 53,000 properties across 150 countries and manages over three million hotel rooms.
+modified: '2026-05-25'
+created: '2026-05-25'
+specificationVersion: '0.16'
+apis:
+  - aid: siteminder:pmsxchange-api
+    name: SiteMinder pmsXchange API
+    tags:
+      - Property Management System
+      - Revenue Management
+      - Central Reservation System
+      - OpenTravel
+      - Reservations
+      - Inventory Distribution
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.siteminder.com/pmsxchange-api/pmsxchange-api
+    properties:
+      - url: https://developer.siteminder.com/pmsxchange-api/pmsxchange-api
+        type: Documentation
+      - url: https://developer.siteminder.com/pmsxchange-api/guides/quick-start
+        type: Quickstart
+      - url: https://developer.siteminder.com/pmsxchange-api/guides/api-overview
+        type: APIReference
+      - url: https://developer.siteminder.com/pmsxchange-api/guides/integration-requirements
+        type: IntegrationRequirements
+      - url: https://developer.siteminder.com/pmsxchange-api/guides/testing-and-certification
+        type: Certification
+      - url: https://developer.siteminder.com/pmsxchange-api/guides/error-handling
+        type: ErrorHandling
+      - url: https://developer.siteminder.com/pmsxchange-api/additional-resources/changelog
+        type: ChangeLog
+      - url: https://developer.siteminder.com/pmsxchange-api/additional-resources/credit-card-tokenization
+        type: Documentation
+      - url: https://developer.siteminder.com/pmsxchange-api/additional-resources/reference-tables/opentravel-codes-list
+        type: ReferenceTables
+    description: pmsXchange is SiteMinder's integration API for property management systems (PMS), revenue
+      management systems (RMS), and central reservation systems (CRS) that need to synchronize rooms,
+      rates, availability, restrictions, reservations, and payment data with SiteMinder's distribution
+      network. Built on OpenTravel Alliance message schemas, pmsXchange handles two-way exchange of
+      hotel inventory and bookings between the property's system of record and SiteMinder's channel
+      manager, supporting push, pull, upload, and import patterns for reservation processing. Certified
+      pmsXchange partners gain access to SiteMinder's Hotel App Store and distribution across more than
+      47,000 connected properties.
+  - aid: siteminder:siteconnect-api
+    name: SiteMinder SiteConnect API
+    tags:
+      - Booking Channel
+      - Channel Manager
+      - OpenTravel
+      - Online Travel Agency
+      - Availability
+      - Rates
+      - Reservations
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.siteminder.com/siteconnect-api/siteconnect-api
+    properties:
+      - url: https://developer.siteminder.com/siteconnect-api/siteconnect-api
+        type: Documentation
+      - url: https://developer.siteminder.com/siteconnect-api/guides/quick-start
+        type: Quickstart
+      - url: https://developer.siteminder.com/siteconnect-api/guides/api-overview
+        type: APIReference
+      - url: https://developer.siteminder.com/siteconnect-api/guides/integration-requirements
+        type: IntegrationRequirements
+      - url: https://developer.siteminder.com/siteconnect-api/guides/testing-and-certification
+        type: Certification
+      - url: https://developer.siteminder.com/siteconnect-api/guides/error-handling
+        type: ErrorHandling
+      - url: https://developer.siteminder.com/siteconnect-api/reference/rooms-and-rates
+        type: Documentation
+      - url: https://developer.siteminder.com/siteconnect-api/reference/availability-and-restrictions
+        type: Documentation
+      - url: https://developer.siteminder.com/siteconnect-api/reference/rates
+        type: Documentation
+      - url: https://developer.siteminder.com/siteconnect-api/reference/reservations
+        type: Documentation
+      - url: https://developer.siteminder.com/siteconnect-api/additional-resources/changelog
+        type: ChangeLog
+    description: SiteConnect is SiteMinder's integration API for booking channels such as online travel
+      agencies, wholesalers, global distribution systems, and metasearch partners that contract directly
+      with hotels. The API uses OpenTravel Alliance message schemas (OTA_HotelAvailNotifRQ, OTA_HotelRateAmountNotifRQ,
+      OTA_HotelResNotifRQ) and is organized into four resource areas - Rooms and Rates, Availability and
+      Restrictions, Rates, and Reservations - exchanged through both pull and push patterns over global
+      endpoints. SiteConnect partners must complete SiteMinder's testing and certification program before
+      gaining production access and become eligible for distribution to properties via individually-negotiated
+      channel contracts.
+  - aid: siteminder:channels-plus-api
+    name: SiteMinder Channels Plus API
+    tags:
+      - Booking Channel
+      - REST
+      - JSON
+      - Multi-Property
+      - Reservations
+      - Net Rates
+      - Model Context Protocol
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.siteminder.com/channels-plus-api/channels-plus-api
+    properties:
+      - url: https://developer.siteminder.com/channels-plus-api/channels-plus-api
+        type: Documentation
+      - url: https://developer.siteminder.com/channels-plus-api/guides/quick-start
+        type: Quickstart
+      - url: https://developer.siteminder.com/channels-plus-api/guides/api-overview
+        type: APIReference
+      - url: https://developer.siteminder.com/channels-plus-api/guides/integration-requirements
+        type: IntegrationRequirements
+      - url: https://developer.siteminder.com/channels-plus-api/guides/testing-and-certification
+        type: Certification
+      - url: https://developer.siteminder.com/channels-plus-api/mcp-server/overview
+        type: MCPServer
+      - url: https://developer.siteminder.com/channels-plus-api/reference/properties
+        type: Documentation
+      - url: https://developer.siteminder.com/channels-plus-api/reference/property
+        type: Documentation
+      - url: https://developer.siteminder.com/channels-plus-api/reference/lock-reservation
+        type: Documentation
+      - url: https://developer.siteminder.com/channels-plus-api/reference/confirm-reservation
+        type: Documentation
+      - url: https://developer.siteminder.com/channels-plus-api/reference/modify-reservation
+        type: Documentation
+      - url: https://developer.siteminder.com/channels-plus-api/reference/cancel-reservation
+        type: Documentation
+      - url: https://developer.siteminder.com/channels-plus-api/reference/reservations-list
+        type: Documentation
+      - url: https://developer.siteminder.com/channels-plus-api/reference/reservation-detail
+        type: Documentation
+      - url: https://developer.siteminder.com/channels-plus-api/additional-resources/commercial/partner-portal
+        type: PartnerPortal
+      - url: https://developer.siteminder.com/channels-plus-api/additional-resources/commercial/net-rates-program
+        type: Pricing
+      - url: https://developer.siteminder.com/channels-plus-api/additional-resources/changelog
+        type: ChangeLog
+    description: Channels Plus is SiteMinder's REST and JSON booking channel API that lets partners
+      connect to many SiteMinder properties through a single integration without negotiating individual
+      hotel contracts. It exposes property search, real-time shopping for rates and availability, and a
+      full reservation lifecycle - lock, confirm, modify, cancel, list, and detail - alongside a
+      companion Model Context Protocol (MCP) server that gives AI agents access to the same shopping
+      and booking surface. Partner onboarding is automated through a dedicated portal where channels
+      manage deals, invoicing, cancellations, and the Net Rates Program for wholesale-style distribution.
+  - aid: siteminder:smx-api
+    name: SiteMinder SMX API
+    tags:
+      - Metasearch
+      - Hotel Application
+      - Availability
+      - Rates
+      - Reservations
+      - OpenTravel
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.siteminder.com/smx-api/smx-api
+    properties:
+      - url: https://developer.siteminder.com/smx-api/smx-api
+        type: Documentation
+      - url: https://developer.siteminder.com/smx-api/guides/quick-start
+        type: Quickstart
+      - url: https://developer.siteminder.com/smx-api/guides/api-overview
+        type: APIReference
+      - url: https://developer.siteminder.com/smx-api/guides/integration-requirements
+        type: IntegrationRequirements
+      - url: https://developer.siteminder.com/smx-api/guides/testing-and-certification
+        type: Certification
+      - url: https://developer.siteminder.com/smx-api/guides/error-handling
+        type: ErrorHandling
+      - url: https://developer.siteminder.com/smx-api/reference/reservations
+        type: Documentation
+      - url: https://developer.siteminder.com/smx-api/reference/availability-and-rates/publishers
+        type: Documentation
+      - url: https://developer.siteminder.com/smx-api/reference/availability-and-rates/hotels
+        type: Documentation
+      - url: https://developer.siteminder.com/smx-api/reference/availability-and-rates/roomtypes
+        type: Documentation
+      - url: https://developer.siteminder.com/smx-api/reference/availability-and-rates/rateplans
+        type: Documentation
+      - url: https://developer.siteminder.com/smx-api/reference/availability-and-rates/availability
+        type: Documentation
+      - url: https://developer.siteminder.com/smx-api/reference/availability-and-rates/rates
+        type: Documentation
+      - url: https://developer.siteminder.com/smx-api/additional-resources/activation-and-deactivation
+        type: Documentation
+      - url: https://developer.siteminder.com/smx-api/additional-resources/changelog
+        type: ChangeLog
+    description: SMX is SiteMinder's API for metasearch publishers and hotel application providers that
+      need a single standardized connection to the SiteMinder platform and its network of connected
+      property management systems. It provides publisher, hotel, room type, rate plan, availability,
+      and rates resources for real-time shopping, plus reservations endpoints for receiving and
+      reconciling bookings, modifications, cancellations, and guest status updates. SMX activation
+      and deactivation is managed by SiteMinder, and certified partners are listed in the Hotel App
+      Store for customer discovery.
+  - aid: siteminder:direct-booking-api
+    name: SiteMinder Direct Booking API
+    tags:
+      - Direct Booking
+      - REST
+      - JSON
+      - Multi-Property
+      - Property Data
+      - Room Rates
+      - Quotes
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.siteminder.com/direct-booking-api/direct-booking-api
+    properties:
+      - url: https://developer.siteminder.com/direct-booking-api/direct-booking-api
+        type: Documentation
+      - url: https://developer.siteminder.com/direct-booking-api/guides/quick-start
+        type: Quickstart
+      - url: https://developer.siteminder.com/direct-booking-api/guides/api-overview
+        type: APIReference
+      - url: https://developer.siteminder.com/direct-booking-api/guides/integration-requirements
+        type: IntegrationRequirements
+      - url: https://developer.siteminder.com/direct-booking-api/reference/properties
+        type: Documentation
+      - url: https://developer.siteminder.com/direct-booking-api/reference/property
+        type: Documentation
+      - url: https://developer.siteminder.com/direct-booking-api/reference/room-types
+        type: Documentation
+      - url: https://developer.siteminder.com/direct-booking-api/reference/room-rates
+        type: Documentation
+      - url: https://developer.siteminder.com/direct-booking-api/reference/quotes
+        type: Documentation
+      - url: https://developer.siteminder.com/direct-booking-api/additional-resources/generate-api-key
+        type: Authentication
+      - url: https://developer.siteminder.com/direct-booking-api/additional-resources/manage-api-key
+        type: Authentication
+      - url: https://developer.siteminder.com/direct-booking-api/additional-resources/changelog
+        type: ChangeLog
+    description: The Direct Booking API is a REST and JSON service that lets hotel groups on SiteMinder's
+      Multi-Property platform power custom direct booking flows on their own websites and mobile apps. It
+      exposes property listings, individual property detail, room types, room rates, and quote generation
+      so developers can build branded availability search, shopping, and pricing experiences that pull
+      live data from SiteMinder. API access is gated by per-tenant API keys generated and managed through
+      the SiteMinder dashboard; the API is not available to groups on the classic SiteMinder Channel
+      Manager.
+common:
+  - type: Portal
+    url: https://developer.siteminder.com/
+  - type: GettingStarted
+    url: https://developer.siteminder.com/get-started/get-started
+  - type: SignUp
+    url: https://www.siteminder.com/developer-guide/
+  - type: Pricing
+    url: https://www.siteminder.com/pricing/
+  - type: Support
+    url: https://developer.siteminder.com/integration-support/integration-support
+  - type: FAQ
+    url: https://developer.siteminder.com/get-started/resources/faq
+  - type: Glossary
+    url: https://developer.siteminder.com/get-started/resources/glossary
+  - type: Blog
+    url: https://www.siteminder.com/r/
+  - type: TermsOfService
+    url: https://www.siteminder.com/legal/
+  - type: PrivacyPolicy
+    url: https://www.siteminder.com/legal/
+  - type: GitHubOrganization
+    url: https://github.com/SiteMinder
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/siteminder
+  - type: Careers
+    url: https://www.siteminder.com/careers/
+  - type: PartnerPrograms
+    url: https://www.siteminder.com/partner-programs/
+  - type: Features
+    data:
+      - name: Channel Distribution
+        description: Distribute room inventory, rates, and restrictions across 450+ online distribution
+          channels including OTAs, GDS systems, metasearch, and wholesalers from a single platform.
+      - name: PMS, RMS, and CRS Connectivity
+        description: Two-way synchronization with property management, revenue management, and central
+          reservation systems through the pmsXchange API.
+      - name: Multi-Property Management
+        description: Centralized control of inventory, rates, and bookings across hotel groups via
+          SiteMinder's Multi-Property platform.
+      - name: Direct Booking Engine
+        description: Programmatic access to property data, room types, rates, and quotes for building
+          branded direct booking flows on hotel-owned web and mobile properties.
+      - name: Metasearch Publishing
+        description: SMX API standardizes connectivity between hotel applications and metasearch
+          publishers for real-time availability and rate publication.
+      - name: Net Rates and Wholesale Distribution
+        description: Channels Plus Net Rates Program allows wholesale-style distribution with
+          contracted net pricing between SiteMinder properties and connecting channels.
+      - name: Model Context Protocol Server
+        description: Channels Plus exposes a companion MCP server so AI agents can shop, lock, and
+          confirm reservations against SiteMinder inventory.
+      - name: Hotel App Store
+        description: Curated marketplace where SiteMinder properties discover and connect certified
+          PMS, RMS, CRS, and application partners.
+      - name: Partner Portal
+        description: Self-service portal where Channels Plus partners manage deals, invoicing,
+          cancellation policies, commissions, and API keys.
+  - type: UseCases
+    data:
+      - name: Hotel Channel Distribution
+        description: Property staff push availability, restrictions, and rates to hundreds of booking
+          channels and ingest reservations through a single API integration.
+      - name: PMS Integration
+        description: Property management system vendors connect their software to SiteMinder via
+          pmsXchange to give shared customers two-way distribution and reservation sync.
+      - name: OTA and Wholesaler Connectivity
+        description: Online travel agencies and wholesalers integrate with SiteConnect or Channels
+          Plus to access bookable inventory across thousands of hotels.
+      - name: Direct Booking Site Build
+        description: Hotel groups build custom branded booking websites and mobile apps that pull
+          property, room, and rate data live from SiteMinder via the Direct Booking API.
+      - name: Metasearch Publication
+        description: Metasearch publishers and hotel applications use SMX to publish rates and
+          availability and ingest bookings across SiteMinder's PMS network.
+      - name: AI Agent Booking
+        description: AI agents and assistants shop and book hotel inventory through the Channels
+          Plus MCP server using Model Context Protocol tools.
+  - type: Integrations
+    data:
+      - name: Booking.com
+        description: Online travel agency distribution partner connected through SiteMinder's
+          channel manager.
+      - name: Expedia
+        description: Online travel agency distribution partner including Hotels.com and Vrbo brands.
+      - name: Airbnb
+        description: Vacation rental and alternative accommodation distribution partner.
+      - name: Agoda
+        description: Asia-Pacific online travel agency distribution partner.
+      - name: Google Hotels
+        description: Metasearch and free booking links distribution partner.
+      - name: Trivago
+        description: Metasearch distribution partner for hotel rates and availability.
+      - name: TripAdvisor
+        description: Reviews and metasearch distribution partner.
+      - name: Mews
+        description: Cloud-native property management system integrated through pmsXchange.
+      - name: Cloudbeds
+        description: Hospitality management platform integrated through pmsXchange.
+      - name: Oracle Hospitality
+        description: OPERA and Suite8 property management systems integrated through pmsXchange.
+      - name: Apaleo
+        description: Open API-first property management platform integrated through pmsXchange.
+      - name: Amadeus, Sabre, and Travelport
+        description: Global distribution systems integrated through SiteConnect for corporate
+          travel and travel agent distribution.
+  - type: Solutions
+    data:
+      - name: Independent Hotels
+        description: Single-property channel management, booking engine, and revenue tooling for
+          independent operators.
+      - name: Hotel Groups and Chains
+        description: Multi-Property platform with centralized rates, inventory, and reporting plus
+          the Direct Booking API for branded booking flows.
+      - name: Booking Channel Partners
+        description: SiteConnect and Channels Plus for OTAs, wholesalers, GDS, and metasearch
+          providers connecting to SiteMinder's property network.
+      - name: PMS, RMS, and CRS Vendors
+        description: pmsXchange integration program with App Store listing and access to 47,000+
+          connected properties.
+      - name: Hotel Application Providers
+        description: SMX API for upsell, guest experience, housekeeping, and revenue management
+          applications that need a single integration into the SiteMinder PMS network.
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://kinlane.com
