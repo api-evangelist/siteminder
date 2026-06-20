@@ -2,7 +2,7 @@ aid: siteminder
 name: SiteMinder
 url: https://raw.githubusercontent.com/api-evangelist/siteminder/refs/heads/main/apis.yml
 humanURL: https://www.siteminder.com/
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Hospitality
   - Hotel Distribution
@@ -31,7 +31,7 @@ apis:
       - OpenTravel
       - Reservations
       - Inventory Distribution
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.siteminder.com/pmsxchange-api/pmsxchange-api
     properties:
       - url: https://developer.siteminder.com/pmsxchange-api/pmsxchange-api
@@ -70,7 +70,7 @@ apis:
       - Availability
       - Rates
       - Reservations
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.siteminder.com/siteconnect-api/siteconnect-api
     properties:
       - url: https://developer.siteminder.com/siteconnect-api/siteconnect-api
@@ -113,7 +113,7 @@ apis:
       - Reservations
       - Net Rates
       - Model Context Protocol
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.siteminder.com/channels-plus-api/channels-plus-api
     properties:
       - url: https://developer.siteminder.com/channels-plus-api/channels-plus-api
@@ -166,7 +166,7 @@ apis:
       - Rates
       - Reservations
       - OpenTravel
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.siteminder.com/smx-api/smx-api
     properties:
       - url: https://developer.siteminder.com/smx-api/smx-api
@@ -216,7 +216,7 @@ apis:
       - Property Data
       - Room Rates
       - Quotes
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.siteminder.com/direct-booking-api/direct-booking-api
     properties:
       - url: https://developer.siteminder.com/direct-booking-api/direct-booking-api
