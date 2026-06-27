@@ -37,7 +37,7 @@ apis:
       - url: https://developer.siteminder.com/pmsxchange-api/pmsxchange-api
         type: Documentation
       - url: https://developer.siteminder.com/pmsxchange-api/guides/quick-start
-        type: Quickstart
+        type: GettingStarted
       - url: https://developer.siteminder.com/pmsxchange-api/guides/api-overview
         type: APIReference
       - url: https://developer.siteminder.com/pmsxchange-api/guides/integration-requirements
@@ -76,7 +76,7 @@ apis:
       - url: https://developer.siteminder.com/siteconnect-api/siteconnect-api
         type: Documentation
       - url: https://developer.siteminder.com/siteconnect-api/guides/quick-start
-        type: Quickstart
+        type: GettingStarted
       - url: https://developer.siteminder.com/siteconnect-api/guides/api-overview
         type: APIReference
       - url: https://developer.siteminder.com/siteconnect-api/guides/integration-requirements
@@ -119,7 +119,7 @@ apis:
       - url: https://developer.siteminder.com/channels-plus-api/channels-plus-api
         type: Documentation
       - url: https://developer.siteminder.com/channels-plus-api/guides/quick-start
-        type: Quickstart
+        type: GettingStarted
       - url: https://developer.siteminder.com/channels-plus-api/guides/api-overview
         type: APIReference
       - url: https://developer.siteminder.com/channels-plus-api/guides/integration-requirements
@@ -172,7 +172,7 @@ apis:
       - url: https://developer.siteminder.com/smx-api/smx-api
         type: Documentation
       - url: https://developer.siteminder.com/smx-api/guides/quick-start
-        type: Quickstart
+        type: GettingStarted
       - url: https://developer.siteminder.com/smx-api/guides/api-overview
         type: APIReference
       - url: https://developer.siteminder.com/smx-api/guides/integration-requirements
@@ -222,7 +222,7 @@ apis:
       - url: https://developer.siteminder.com/direct-booking-api/direct-booking-api
         type: Documentation
       - url: https://developer.siteminder.com/direct-booking-api/guides/quick-start
-        type: Quickstart
+        type: GettingStarted
       - url: https://developer.siteminder.com/direct-booking-api/guides/api-overview
         type: APIReference
       - url: https://developer.siteminder.com/direct-booking-api/guides/integration-requirements
@@ -255,7 +255,7 @@ common:
     url: https://developer.siteminder.com/
   - type: GettingStarted
     url: https://developer.siteminder.com/get-started/get-started
-  - type: SignUp
+  - type: Signup
     url: https://www.siteminder.com/developer-guide/
   - type: Pricing
     url: https://www.siteminder.com/pricing/
