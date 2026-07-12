@@ -251,6 +251,10 @@ apis:
       the SiteMinder dashboard; the API is not available to groups on the classic SiteMinder Channel
       Manager.
 common:
+  - type: VulnerabilityDisclosure
+    url: security/siteminder-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/siteminder-domain-security.yml
   - type: Portal
     url: https://developer.siteminder.com/
   - type: GettingStarted
