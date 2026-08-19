@@ -31,7 +31,7 @@ description: SiteMinder is an Australian hotel commerce platform (ASX SDR) that 
   than 53,000 properties across 150 countries and manages over three million hotel rooms.
 modified: '2026-05-25'
 created: '2026-05-25'
-specificationVersion: '0.16'
+specificationVersion: '0.23'
 apis:
   - aid: siteminder:pmsxchange-api
     name: SiteMinder pmsXchange API
