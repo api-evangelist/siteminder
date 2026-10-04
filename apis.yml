@@ -33,6 +33,7 @@ tags:
 - Travel
 - Property Management
 - Reservations
+- Hotels
 description: SiteMinder is an Australian hotel commerce platform (ASX SDR) that connects hotels with more
   than 450 online distribution channels, including OTAs (Booking.com, Expedia, Airbnb, Agoda), metasearch
   sites (Google, Trivago, TripAdvisor), and global distribution systems. Through its developer portal
@@ -45,7 +46,7 @@ created: '2026-05-25'
 specificationVersion: '0.23'
 apis:
 - aid: siteminder:pmsxchange-api
-  name: SiteMinder pmsXchange API
+  name: SiteMinder Pms Xchange API
   tags:
   - Property Management System
   - Revenue Management
